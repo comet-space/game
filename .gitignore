@@ -1,3 +1,5 @@
+.tmp*
+docs/app.js
 yarn.lock
 
 lib/
