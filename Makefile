@@ -1,7 +1,10 @@
 repository = xcometh/game
 file = game.js
 
-.PHONY: create_release list_releases_ids remove_release list_references delete_reference
+.PHONY: build_prod create_release list_releases_ids remove_release list_references delete_reference
+
+build_prod:
+	yarn build
 
 create_release:
 ifndef tag
